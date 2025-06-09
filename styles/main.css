@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+}
+
+.wrapper-calculator {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.calculator-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculator-text {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.calculator-text-complete {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.calculator-button {
+    color: #FFF;
+    background-color: rgb(17, 78, 17);
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 5px 0 5px 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.calculator-button:hover {
+    color: black;
+}
+
+.calculator-input {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+    margin: 20px 0 0 0;
+}
+
+/* Start Accordion */
+
+section {
+    margin: 100px 0;
+}
+
+.accordion {
+    font-size: 36px;
+    font-weight: 600;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+/* .active, .accordion:hover {
+    color: #FFF;
+    background-color: black;
+} */
+
+.accordion-item {
+    font-size: 24px;
+    font-weight: 400;
+    transition: all 1.5s ease-in-out;
+    margin-top: 10px;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.active {
+    max-height: 10000px;
+}
+
+/* START scroll bar */
+
+.scroll-into {
+    position: fixed;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    left: 90%;
+    z-index: 100;
+    bottom: 10%;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.my-icons {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* START header (tem-menu) */
+
+.header {
+    display: flex;
+    max-width: 1000px;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-menu-tem {
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 0 10px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.header-menu-tem-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tem-active {
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 37px -25px 5px -22px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 37px -25px 5px -22px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 37px -25px 5px -22px rgba(0, 0, 0, 0.75) inset;
+}
